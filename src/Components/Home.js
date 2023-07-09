@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { auth, db } from '../Firebase/Config';
 import {AiOutlineLoading} from 'react-icons/ai'
 
-function Swabah() {
+function Home() {
   const navigate = useNavigate();
   const [userList, setUserList] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -98,4 +98,4 @@ function Swabah() {
   );
 }
 
-export default Swabah;
+export default Home;
